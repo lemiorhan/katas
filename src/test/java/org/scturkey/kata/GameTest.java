@@ -88,7 +88,7 @@ public class GameTest {
         assertThat(game.getFrame(2).score()).isEqualTo(null);
     }
 
-    @Test
+    @Test2
     void should_calculateScoreOfSecondFrame_when_itsTimeForStrike2() {
         Game game = createNewGame();
         game.roll(2);
